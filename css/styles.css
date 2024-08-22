@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 button {
@@ -29,11 +30,11 @@ a {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .title-link-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .navigation-menu .menu-element {
@@ -43,6 +44,10 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+}
+
+.address-tel-email {
+  font-style: normal;
 }
 
 .address-menu .address-menu-element {
@@ -55,7 +60,12 @@ a {
 
 .address-menu .address-menu-element:focus,
 .address-menu .address-menu-element:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.navigation-menu .menu-element:focus,
+.navigation-menu .menu-element:hover {
+  color: #404bbf;
 }
 
 /* Section1 / Order section */
@@ -74,13 +84,16 @@ a {
 }
 
 .order-button {
+  /* width: 169px;
   border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
   height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
   color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .order-button:hover,
@@ -118,6 +131,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.our-team-list .our-team-list-element {
+  background-color: #ffffff;
 }
 
 .our-team-list .our-team-list-element .our-team-name {
@@ -139,16 +157,17 @@ a {
 
 /* Section 4 / Our Portfolio */
 
-.our-porfolio-title {
+.our-portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.our-porfolio-list .our-porfolio-list-element .our-porfolio-name {
+.our-portfolio-list .our-portfolio-list-element .our-portfolio-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -156,7 +175,7 @@ a {
   color: #2e2f42;
 }
 
-.our-porfolio-list .our-porfolio-list-element .our-porfolio-description {
+.our-portfolio-list .our-portfolio-list-element .our-portfolio-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -166,6 +185,15 @@ a {
 /* Footer */
 
 .title-link-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.title-link-span-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
