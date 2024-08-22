@@ -8,10 +8,6 @@ button {
   cursor: pointer;
 }
 
-footer {
-  background: #2e2f42;
-}
-
 ul,
 ol {
   list-style-type: none;
@@ -84,11 +80,6 @@ a {
 }
 
 .order-button {
-  /* width: 169px;
-  border-radius: 4px;
-  height: 56px;
-  padding: 16px 32px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
   color: #fff;
   font-weight: 500;
@@ -184,7 +175,12 @@ a {
 
 /* Footer */
 
+.footer-web-studio {
+  background-color: #2e2f42;
+}
+
 .title-link-footer {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
