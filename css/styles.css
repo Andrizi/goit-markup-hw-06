@@ -8,16 +8,68 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Navigation */
+
+.navigation-header {
+  display: flex;
+  column-gap: 76px;
+  align-items: center;
+}
 
 .title-link {
   font-family: "Raleway", sans-serif;
@@ -33,6 +85,11 @@ a {
   color: #2e2f42;
 }
 
+.navigation-menu {
+  display: flex;
+  column-gap: 40px;
+}
+
 .navigation-menu .menu-element {
   font-weight: 500;
   font-size: 16px;
@@ -40,10 +97,18 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-tel-email {
   font-style: normal;
+}
+
+.address-menu {
+  display: flex;
+  column-gap: 40px;
 }
 
 .address-menu .address-menu-element {
@@ -52,6 +117,9 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-menu .address-menu-element:focus,
@@ -71,12 +139,17 @@ a {
 }
 
 .order-title {
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-button {
@@ -85,6 +158,15 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-bottom: 188px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-hero-container {
+  display: flex;
+  justify-content: center;
 }
 
 .order-button:hover,
@@ -93,6 +175,14 @@ a {
 }
 
 /* Section2 / Description */
+
+.description-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 
 .description-list .description-list-title {
   font-weight: 500;
@@ -115,6 +205,14 @@ a {
   background: #f4f4fd;
 }
 
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+  width: calc((100% - 72) / 4);
+  padding-bottom: 120px;
+  margin-bottom: 120px;
+}
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -123,6 +221,8 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .our-team-list .our-team-list-element {
@@ -136,6 +236,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .our-team-list .our-team-list-element .our-team-role {
@@ -144,6 +246,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 /* Section 4 / Our Portfolio */
@@ -156,6 +259,16 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 72px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin-bottom: 120px;
 }
 
 .our-portfolio-list .our-portfolio-list-element .our-portfolio-name {
@@ -164,6 +277,8 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .our-portfolio-list .our-portfolio-list-element .our-portfolio-description {
@@ -171,6 +286,7 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /* Footer */
@@ -187,6 +303,9 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 16px;
 }
 
 .title-link-span-footer {
@@ -200,9 +319,11 @@ a {
 }
 
 .footer-information {
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
 }
