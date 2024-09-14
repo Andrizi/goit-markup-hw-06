@@ -156,7 +156,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -243,7 +243,6 @@ a {
 .our-team-list .our-team-list-element {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -354,5 +353,4 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-bottom: 100px;
 }
