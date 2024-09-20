@@ -28,9 +28,15 @@
             Web<span class="title-link-span">Studio</span></a
           >
           <ul class="navigation-menu">
-            <li><a class="menu-element" href="./index.html">Studio</a></li>
-            <li><a class="menu-element" href="">Portfolio</a></li>
-            <li><a class="menu-element" href="">Contacts</a></li>
+            <li>
+              <a class="menu-element first-element" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="menu-element second-element" href="">Portfolio</a>
+            </li>
+            <li><a class="menu-element third-element" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address-tel-email">
@@ -64,9 +70,11 @@
           <h2 class="visually-hidden">Description</h2>
           <ul class="description-list">
             <li class="description-element">
-              <svg class="description-icons">
-                <use href="./images/icons.svg#icon-Icon-1-1"></use>
-              </svg>
+              <div class="description-icon-wrapper">
+                <svg class="description-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram-1-1"></use>
+                </svg>
+              </div>
               <h3 class="description-list-title">Strategy</h3>
               <p class="description-list-text">
                 Our goal is to identify the business problem to walk away with
@@ -74,9 +82,11 @@
               </p>
             </li>
             <li class="description-element">
-              <svg class="description-icons">
-                <use href="./images/icons.svg#icon-Icon-2-1"></use>
-              </svg>
+              <div class="description-icon-wrapper">
+                <svg class="description-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock-1-1"></use>
+                </svg>
+              </div>
               <h3 class="description-list-title">Punctuality</h3>
               <p class="description-list-text">
                 Bring the key message to the brand's audience for the best price
@@ -84,9 +94,11 @@
               </p>
             </li>
             <li class="description-element">
-              <svg class="description-icons">
-                <use href="./images/icons.svg#icon-Icon-3-1"></use>
-              </svg>
+              <div class="description-icon-wrapper">
+                <svg class="description-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram-1-1"></use>
+                </svg>
+              </div>
               <h3 class="description-list-title">Diligence</h3>
               <p class="description-list-text">
                 Research and confirm brands that present the strongest digital
@@ -94,9 +106,11 @@
               </p>
             </li>
             <li class="description-element">
-              <svg class="description-icons">
-                <use href="./images/icons.svg#icon-Icon-4-1"></use>
-              </svg>
+              <div class="description-icon-wrapper">
+                <svg class="description-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut-1-1"></use>
+                </svg>
+              </div>
               <h3 class="description-list-title">Technologies</h3>
               <p class="description-list-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -120,44 +134,37 @@
               <div class="our-team-info">
                 <h3 class="our-team-name">Mark Guerrero</h3>
                 <p class="our-team-role">Product Designer</p>
-                <div class="icons-container">
-                  <ul class="socials-icons-list">
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-instagram-2-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use href="./images/icons.svg#icon-twitter-1-1"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-facebook-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+
+                <ul class="socials-icons-list">
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="our-team-list-element">
@@ -169,44 +176,36 @@
               <div class="our-team-info">
                 <h3 class="our-team-name">Tom Ford</h3>
                 <p class="our-team-role">Frontend Developer</p>
-                <div class="icons-container">
-                  <ul class="socials-icons-list">
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-instagram-2-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use href="./images/icons.svg#icon-twitter-1-1"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-facebook-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <ul class="socials-icons-list">
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="our-team-list-element">
@@ -218,44 +217,36 @@
               <div class="our-team-info">
                 <h3 class="our-team-name">Camila Garcia</h3>
                 <p class="our-team-role">Marketing</p>
-                <div class="icons-container">
-                  <ul class="socials-icons-list">
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-instagram-2-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use href="./images/icons.svg#icon-twitter-1-1"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-facebook-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <ul class="socials-icons-list">
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="our-team-list-element">
@@ -267,44 +258,36 @@
               <div class="our-team-info">
                 <h3 class="our-team-name">Daniel Wilson</h3>
                 <p class="our-team-role">UI Designer</p>
-                <div class="icons-container">
-                  <ul class="socials-icons-list">
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-instagram-2-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use href="./images/icons.svg#icon-twitter-1-1"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-facebook-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="socials-icons-list-item">
-                      <a class="socials-list-link" href="#">
-                        <svg width="16" height="16">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-1-1"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <ul class="socials-icons-list">
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-icons-list-item">
+                    <a class="socials-list-link" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
@@ -322,13 +305,11 @@
                   alt="Banking App"
                   width="360"
                 />
-                <div class="portfolio-overlay">
-                  <p class="portfolio-overlay-info">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-overlay-info">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="container-portfolio-info">
                 <h3 class="our-portfolio-name">Banking App</h3>
@@ -342,13 +323,11 @@
                   alt="Cashless Payment"
                   width="360"
                 />
-                <div class="portfolio-overlay">
-                  <p class="portfolio-overlay-info">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-overlay-info">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="container-portfolio-info">
                 <h3 class="our-portfolio-name">Cashless Payment</h3>
@@ -362,13 +341,11 @@
                   alt="Meditation App"
                   width="360"
                 />
-                <div class="portfolio-overlay">
-                  <p class="portfolio-overlay-info">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-overlay-info">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
 
               <div class="container-portfolio-info">
@@ -383,13 +360,11 @@
                   alt="Taxi Service"
                   width="360"
                 />
-                <div class="portfolio-overlay">
-                  <p class="portfolio-overlay-info">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-overlay-info">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="container-portfolio-info">
                 <h3 class="our-portfolio-name">Taxi Service</h3>
@@ -403,13 +378,11 @@
                   alt="Screen Illustrations"
                   width="360"
                 />
-                <div class="portfolio-overlay">
-                  <p class="portfolio-overlay-info">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-overlay-info">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="container-portfolio-info">
                 <h3 class="our-portfolio-name">Screen Illustrations</h3>
@@ -423,13 +396,11 @@
                   alt="Online Courses"
                   width="360"
                 />
-                <div class="portfolio-overlay">
-                  <p class="portfolio-overlay-info">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-overlay-info">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
               <div class="container-portfolio-info">
                 <h3 class="our-portfolio-name">Online Courses</h3>
@@ -443,7 +414,7 @@
     <!-- Footer -->
     <footer class="footer-web-studio">
       <div class="container container-footer">
-        <div>
+        <div class="conainer-footer-info">
           <a class="title-link-footer" href="./index.html">
             Web<span class="title-link-span-footer">Studio</span></a
           >
@@ -454,39 +425,37 @@
         </div>
 
         <div class="social-footer-container">
-          <h3 class="footer-social-header">Social media</h3>
-          <div class="icons-container">
-            <ul class="socials-icons-list socials-icons-list-footer">
-              <li class="socials-icons-list-item">
-                <a class="socials-list-link socials-list-link-footer" href="#">
-                  <svg width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram-2-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-icons-list-item socials-list-link-footer">
-                <a class="socials-list-link" href="#">
-                  <svg width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter-1-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-icons-list-item socials-list-link-footer">
-                <a class="socials-list-link" href="#">
-                  <svg width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook-1-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-icons-list-item socials-list-link-footer">
-                <a class="socials-list-link" href="#">
-                  <svg width="16" height="16">
-                    <use href="./images/icons.svg#icon-linkedin-1-1"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <p class="footer-social-paragraph">Social media</p>
+          <ul class="socials-icons-list socials-icons-list-footer">
+            <li class="socials-icons-list-item">
+              <a class="socials-list-link socials-list-link-footer" href="#">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-icons-list-item">
+              <a class="socials-list-link socials-list-link-footer" href="#">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-icons-list-item">
+              <a class="socials-list-link socials-list-link-footer" href="#">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-icons-list-item">
+              <a class="socials-list-link socials-list-link-footer" href="#">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
